@@ -1,0 +1,32 @@
+#root {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center;
+}
+
+/* ✨ Hero or Header Section */
+.hero {
+  @apply flex flex-col items-center justify-center min-h-[60vh]
+         bg-gradient-to-br from-sky-100 via-white to-sky-50
+         rounded-3xl shadow-inner p-10 text-center;
+}
+
+.hero h1 {
+  @apply text-4xl md:text-5xl font-bold text-slate-900 mb-4;
+}
+
+.hero p {
+  @apply text-slate-600 max-w-2xl mb-6;
+}
+
+.hero .btn-primary {
+  @apply mt-4;
+}
+
+/* 📚 Cards Grid Layout */
+.card-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6;
+}
+
+/* 🌟 Footer */
+.footer {
+  @apply mt-16 text-slate-500 text-sm py-8 border-t border-slate-200;
+}
